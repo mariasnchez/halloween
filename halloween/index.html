@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Halloween Party</title>
+    <link rel="stylesheet" href="./styles/halloween.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<script src="./javascripts/halloween.js"></script>
+</head>
+<body onloS="sonar('conjuring')">
+    <!---El layout básico incluye un container-->
+    <!---ATENCIÓN: ESTA PÁGINA NO VA A SER RESPONSIVE-->
+    <audio id="laugh">
+        <source src="./sounds/wlaugh.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="terror">
+        <source src="./sounds/fantasma.mp3" type="audio/mpeg"> 
+    </audio>
+    <audio id="conjuring">
+        <source src="sounds/horror-background-music-ig-version-60s-9468.mp3" type="audio/mpeg">
+    </audio>
+    <div id="container">
+
+<p id="p1"> Scary Halloween Party</p>
+<p id="p2">Don't touch the bird </p>
+<p id="p3">Don't touch this pumpkin </p>
+<div id="invitacion">
+    <h1>You are invited to my Halloween party!</h1>
+    <p>Date: 31st October 2021</p>
+    <p>Hour: 8.00 pm</p>
+    <p>Place: My house</p>
+    <p>Requirements: It is not necessary to wear a costume, but it is recommended. </p>
+    <h2>I'll wait for you!</h2>
+</div>
+
+<img id="bats" src="./images/bats.gif" alt="">
+<img id="fantasmas" src="./images/fantasmas.gif" alt="">
+<div id="pajaro" onmouseover="mostrar('bats');sonar('laugh')"
+                    onmouseout="ocultar('bats');parar('laugh')">
+    </div>
+<div id="calabaza" onmouseover="mostrar('fantasmas');sonar('terror')"
+                     onmouseout="ocultar('fantasmas');parar('terror')">
+</div>
+</body>
+</html>
