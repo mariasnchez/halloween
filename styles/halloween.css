@@ -1,0 +1,83 @@
+/*******   stylesheet for halloween  *******/
+/******* THIS PAGE IS NOT RESPONSIVE AT ALL *****/
+@font-face {
+    font-family: halloween;
+    src: url('../fonts/piecesnfi.ttf');
+    
+}
+@font-face {
+    font-family: invitacion;
+    src: url('../fonts/HalloweenOcurrence.ttf');
+}
+
+body{background-color: #020214;
+color: white;
+font-family: halloween;}
+
+#invitacion{font-family: invitacion;
+
+    padding: 3px 10px;
+  border: darkred 10px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  color: darkred;
+    text-align: center;
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.582);
+    text-shadow: 7px 7px 7px rgb(201, 89, 89);
+    position:absolute; 
+    top:250px;
+    left: 500px;
+}
+
+#container {background-image: url("../images/background.png");
+width: 1920px;/*fijo el ancho como el de la imagen*/
+height: 1080px; /*fijo el alto como el de la imagen*/
+margin: auto;
+position: relative /*el container se mueve por la pantalla*/;
+}
+
+#p1 {font-size: 3em;
+text-shadow: 5px 5px 5px red;
+position:absolute; 
+top:1px;
+left: 900px;
+}
+
+#p2 {font-size: 1em;
+    position:absolute;
+top:140px;
+left: 280px;}
+
+#p3 {font-size: 1.2em;
+    position:absolute;
+    top:800px;
+    left: 600px;}
+
+#bats{position: absolute;
+        top:100px;
+    left: 270px;
+    width:270px;
+    visibility: hidden;
+}
+#fantasmas{position: absolute;
+    top:700px;
+left: 650px;
+width:300px;
+visibility: hidden;
+}
+#pajaro{width: 100px;
+    height: 150px;
+    position: absolute;
+    left: 360px ;
+    top:100px ;
+    width: 50px;
+}
+#calabaza{
+    height: 250px;
+    position: absolute;
+    left: 660px ;
+    top:700px ;
+    width: 300px;
+}
